@@ -8,9 +8,9 @@
 </head>
 <body>
   <form action="poem.php" method="get">
-    Color: <input type="text" name="color" <br>
-    Plural Noun: <input type="text" name="pluralNoun" <br>
-    Celebrity: <input type="text" name="celebrity" <br>
+    Color: <input type="text" name="color"><br>
+    Plural Noun: <input type="text" name="pluralNoun"><br>
+    Celebrity: <input type="text" name="celebrity">
     <input type="submit">
   </form>
   <br>
