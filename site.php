@@ -9,7 +9,9 @@
 <body>
 
   <?php 
-    echo("Hello World");
+    echo "<h1>Hello World</h1>";
+    echo "<hr>";
+    echo "<h2>Subtitle Here</h2>";
   ?>
   
 </body>
