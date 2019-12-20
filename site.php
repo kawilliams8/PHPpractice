@@ -58,7 +58,8 @@
     echo strlen($phrase); //Char length
     $phrase[0] = 'X'; //Reassign char by index position
     echo $phrase;
-    
+    echo str_replace("phrase", "coffee cup", $phrase);
+    echo substr($phrase, 7, 5); //Variable, then starting index, then length you want
   ?>
   
 </body>
