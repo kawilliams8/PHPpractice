@@ -21,8 +21,8 @@
     echo "<h3>She really liked the name $name.</h3>";
     echo "<h3>She doesn't like being $age years old.</h3>";
 
-    $name = "SallyTwo";
-    $age = 40;
+    $name = "SallyTwo"; //Reassignment
+    $age = 40; //Reassignment
 
     echo "<h3>There once was a woman named $name.</h3>";
     echo "<h3>She was $age years old.</h3>";
@@ -60,6 +60,22 @@
     echo $phrase;
     echo str_replace("phrase", "coffee cup", $phrase);
     echo substr($phrase, 7, 5); //Variable, then starting index, then length you want
+  ?>
+
+  <?php
+    echo "<h2>Number/Math methods</h2>";
+    $num = 5+9; //PHP executes the arithmetic
+    echo "<h3>$num</h3>";
+    $num++; //Increment, decrement, also +=, -=, *= and %=
+    echo "<h3>$num</h3>";
+    echo abs(-100); //Absolute value prints 100
+    echo pow(2, 4); //2 to the power of 4
+    echo sqrt(144); //Prints 12
+    echo max(2, 6); //Prints the higher of the two
+    echo min(2, 6);
+    echo round(3.45); //Rounds up or down
+    echo ceil(3.2); //Rounds up
+    echo floor(5.8); //Rounds down
   ?>
   
 </body>
