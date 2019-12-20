@@ -8,12 +8,12 @@
 </head>
 <body>
   <form action="form.php" method="get">
-    Name: <input type="text" name="username">
+    Name: <input type="text" name="name">
+    Age: <input type="number" name="age">
     <input type="submit">
   </form>
   <br>
-  <?php 
-    echo $_GET["username"];
-  ?>
+  Your name is <?php echo $_GET["name"] ?>
+  Your age is <?php echo $_GET["age"] ?>
 </body>
 </html>
