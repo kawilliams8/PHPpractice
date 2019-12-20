@@ -47,6 +47,19 @@
     echo "<h3>*** $comment_null</h3>";
     echo "<h3>*** $comment_resources</h3>";
   ?>
+
+  <?php
+    echo "<h2>String methods</h2>";
+    $phrase = "This is my phrase";
+    echo "$phrase <br>"; //Just printing phrase variable
+    echo strtolower($phrase); //To lower on variable
+    echo strtoupper($phrase); //To upper on a variable
+    echo strtoupper('dog'); //To Upper on a string
+    echo strlen($phrase); //Char length
+    $phrase[0] = 'X'; //Reassign char by index position
+    echo $phrase;
+    
+  ?>
   
 </body>
 </html>
