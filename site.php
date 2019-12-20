@@ -28,6 +28,24 @@
     echo "<h3>She was $age years old.</h3>";
     echo "<h3>She really liked the name $name.</h3>";
     echo "<h3>She doesn't like being $age years old.</h3>";
+
+    echo "<h2>Data Types</h2>";
+
+    $var_integer = 1; //Whole numbers, no decimal, pos or neg
+    $var_float = 2.34; //Floating point numbers or 'doubles', with decimal/fractional
+    $var_string = 'Hello again'; //Collection of characters
+    $var_bool = true; //True or false
+    $var_array = array("Red", "Green", "Blue"); //Collection of related items, zero indexed
+    $comment_null = "Empty variables are initalized as null";
+    $comment_resources = '"Resources" are variables holding a reference to an external file or database connection';
+
+    echo "<h3>Integers: $var_integer</h3>";
+    echo "<h3>Floats: $var_float</h3>";
+    echo "<h3>Strings: $var_string</h3>";
+    echo "<h3>Boolean (true): $var_bool</h3>";
+    echo "<h3>Array: $var_array</h3>";
+    echo "<h3>*** $comment_null</h3>";
+    echo "<h3>*** $comment_resources</h3>";
   ?>
   
 </body>
