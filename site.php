@@ -12,6 +12,14 @@
     echo "<h1>Hello World</h1>";
     echo "<hr>";
     echo "<h2>Subtitle Here</h2>";
+
+    $name = "Sally";
+    $age = 35;
+
+    echo "There once was a woman named $name <br>";
+    echo "She was $age years old <br>";
+    echo "She really liked the name $name <br>";
+    echo "She doesn't like being $age years old <br>";
   ?>
   
 </body>
