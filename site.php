@@ -16,10 +16,18 @@
     $name = "Sally";
     $age = 35;
 
-    echo "There once was a woman named $name <br>";
-    echo "She was $age years old <br>";
-    echo "She really liked the name $name <br>";
-    echo "She doesn't like being $age years old <br>";
+    echo "<h3>There once was a woman named $name.</h3>";
+    echo "<h3>She was $age years old.</h3>";
+    echo "<h3>She really liked the name $name.</h3>";
+    echo "<h3>She doesn't like being $age years old.</h3>";
+
+    $name = "SallyTwo";
+    $age = 40;
+
+    echo "<h3>There once was a woman named $name.</h3>";
+    echo "<h3>She was $age years old.</h3>";
+    echo "<h3>She really liked the name $name.</h3>";
+    echo "<h3>She doesn't like being $age years old.</h3>";
   ?>
   
 </body>
