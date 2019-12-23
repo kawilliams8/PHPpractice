@@ -10,17 +10,30 @@
   <?php
     class Chef {
       function makeChicken(){
-        echo "The chef makes chicken. <br>"
+        echo "The chef makes chicken. <br>";
       }
 
       function makeSalad(){
-        echo "The chef makes salad. <br>"
+        echo "The chef makes salad. <br>";
       }
 
       function makeSpecialDish(){
-        echo "The chef makes the special dish. <br>"
+        echo "The chef makes the special dish. <br>";
       }
     }
+
+    class ItalianChef extends Chef{
+      function makeLasagna(){
+        echo "The italian chef makes lasagna. <br>";
+      }
+    }
+
+    $chef = new Chef();
+    $chef->makeChicken();
+    $chef->makePasta(); //Throws error call to undefined method
+    $italian = new ItalianChef();
+    $italian->makeChicken();
+    $italian->makeLasagna();
   ?>
 </body>
 </html>
