@@ -18,10 +18,17 @@
         $this->major = $major;
         $this->gpa = $gpa;
       }
+
+      function hasHonors(){
+        return $this->gpa >= 3.5 ? "<h3>$this->name has honors: true</h3>" : "<h3>$this->name has honors: false</h3>";
+      }
     }
 
     $student1 = new Student("Jim", "Business", 2.8);
     $student2 = new Student("Pam", "Art", 4.0);
+
+    echo $student1->hasHonors();
+    echo $student2->hasHonors();
   ?>
 </body>
 </html>
