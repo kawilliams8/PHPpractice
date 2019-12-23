@@ -9,11 +9,17 @@
 <body>
   <?php
     $index = 1;
-
     while($index <= 5){
       echo "$index <br>";
       $index++;
     }
+  ?>
+  <?php
+    $index = 6;
+    do {
+      echo "Loop 2 Index: $index <br>"; 
+      $index++;
+    } while($index <= 5)
   ?>
 </body>
 </html>
