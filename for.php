@@ -8,8 +8,9 @@
 </head>
 <body>
   <?php
+    $luckyNums = array(4,8,15,16, 23, 42);
     for($i = 1; $i <= 5; $i++){
-      echo "$i <br>";
+      echo "$luckyNums[$i] <br>";
     }
   ?>
 </body>
