@@ -7,12 +7,26 @@
   <title>Comparisons</title>
 </head>
 <body>
-  <?php
+  Two num comparison: <?php
     function getMax($num1, $num2){
       return $num1 > $num2 ? $num1 : $num2;
     }
 
     echo getMax(6, 3)
+  ?>
+  <br>
+  Three num comparison: <?php
+    function getMaxThree($num1, $num2, $num3){
+      if ($num1 != $num2 && $num1 >= $num3){
+        return $num1;
+      } elseif($num2 >= $num1 && $num2 >= $num3){
+        return $num2;
+      } else {
+        return $num3;
+      }
+    }
+
+    echo getMaxThree(1,2,3);
   ?>
 </body>
 </html>
