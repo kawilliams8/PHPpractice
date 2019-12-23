@@ -7,6 +7,16 @@
   <title>Return statements</title>
 </head>
 <body>
-  
+  <?php
+    function cube($num){
+      echo 'Hello';
+      return $num * $num * $num; //Return statement exist the func
+      echo 'Hello'; //doesn't execute
+    }
+
+    $cubeResult = cube(3);
+    echo $cubeResult;
+    echo cube(5);
+  ?>
 </body>
 </html>
