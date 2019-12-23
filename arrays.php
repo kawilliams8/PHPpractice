@@ -7,14 +7,14 @@
   <title>Arrays</title>
 </head>
 <body>
-  <?php
+  The first friend is: <?php
     $friends = array("Kevin", "Karen", "Oscar", "Jim");
     $friends[1] = "Dwight"; //Reassignment
     $friends[4] = 400; //Add new index 
     echo $friends[0];
   ?>
   <br>
-  <?php
+  Count: <?php
     echo count($friends); //Access globally scoped variable?
   ?>
 </body>
