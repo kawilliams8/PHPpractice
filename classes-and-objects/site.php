@@ -18,7 +18,7 @@
         $this->title = $title;
         $this->author = $author;
         $this->numPages = $numPages;
-        $this->other = $other; //Passing default value
+        $this->other = $other; //Passing default value 
       }
     }
 
