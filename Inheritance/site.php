@@ -26,14 +26,20 @@
       function makeLasagna(){
         echo "The italian chef makes lasagna. <br>";
       }
+
+      function makeSpecialDish(){
+        //"over ride" the Chef class's function
+        echo "The italian chef makes the italian special dish. <br>";
+      }
     }
 
     $chef = new Chef();
     $chef->makeChicken();
-    $chef->makePasta(); //Throws error call to undefined method
+    // $chef->makePasta(); //Throws error call to undefined method
     $italian = new ItalianChef();
     $italian->makeChicken();
     $italian->makeLasagna();
+    $italian->makeSpecialDish();
   ?>
 </body>
 </html>
