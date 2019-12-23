@@ -8,11 +8,11 @@
 </head>
 <body>
   <?php
-    function sayHi(){
-      echo 'Hi';
+    function sayHi($name){
+      echo "Hi $name";
     }
 
-    sayHi();
+    sayHi("Katie");
   ?>
 </body>
 </html>
