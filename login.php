@@ -8,8 +8,12 @@
 </head>
 <body>
   <form action="login.php" method="post">
-    Password: <input type="password" name="password">
-    <input type="submit"
+    Password: <input type="password" name="password"><br>
+    <input type="submit">
   </form>
+  <br>
+  <?php
+    echo $_POST["password"];
+  ?>
 </body>
 </html>
