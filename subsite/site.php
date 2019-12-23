@@ -7,6 +7,13 @@
   <title>Subsite</title>
 </head>
 <body>
-  
+  <?php
+  $title = "Article Title";
+  $author = "Joe Blow";
+  $wordCount = 400;
+  $name = "Katie";
+    include "article-header.php";
+    include "useful-tools.php";
+  ?>
 </body>
 </html>
